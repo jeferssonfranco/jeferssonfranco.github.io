@@ -3,39 +3,54 @@
 <head>
   <meta charset="UTF-8">
   <title>Soporte Técnico en Cúcuta | El Punto de la Red</title>
-  <meta name="description" content="Reparación de computadoras, celulares, redes, routers, radio enlaces e internet satelital en Cúcuta. Servicio técnico confiable.">
+  <meta name="description" content="Reparación de computadoras, celulares y redes en Cúcuta. Servicio técnico profesional.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      background: #0f172a;
-      color: #fff;
+   body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url("fondo.png") no-repeat center center fixed;
+  background-size: cover;
+  color: white;
     }
-
     header {
-      background: #020617;
-      padding: 30px;
-      text-align: center;
+  background: rgba(0,0,0,0.6);
+  backdrop-filter: blur(5px);
+  padding: 60px 20px;
+  text-align: center;
     }
 
-    header h1 {
-      margin: 0;
-      color: #38bdf8;
-      font-size: 28px;
+   header h1 {
+  font-size: 50px;
+  font-weight: bold;
     }
 
     header p {
       margin-top: 10px;
-      color: #94a3b8;
+      font-size: 18px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 25px;
+      background: #020617;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
     }
 
     section {
-      padding: 30px;
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
     }
 
     h2 {
+      text-align: center;
+      margin-bottom: 30px;
       color: #38bdf8;
     }
 
@@ -48,52 +63,35 @@
     .card {
       background: #1e293b;
       padding: 20px;
-      border-radius: 10px;
+      border-radius: 12px;
+      text-align: center;
       transition: 0.3s;
     }
 
     .card:hover {
-      transform: scale(1.05);
+      transform: translateY(-5px);
     }
 
     .card h3 {
-      color: #38bdf8;
+      color: #22c55e;
     }
 
-    .boton {
-      display: inline-block;
-      padding: 12px 20px;
-      background: #22c55e;
-      color: #000;
+    .whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25d366;
+      padding: 15px;
+      border-radius: 50%;
       text-decoration: none;
-      border-radius: 5px;
-      margin-top: 10px;
-      font-weight: bold;
-    }
-
-    .sobre {
-      background: #020617;
-      border-radius: 10px;
+      color: white;
+      font-size: 20px;
     }
 
     footer {
       text-align: center;
       padding: 20px;
       background: #020617;
-      margin-top: 20px;
-    }
-
-    /* BOTON WHATSAPP */
-    .whatsapp {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      background: #25d366;
-      color: white;
-      padding: 15px;
-      border-radius: 50%;
-      font-size: 20px;
-      text-decoration: none;
     }
   </style>
 </head>
@@ -102,7 +100,8 @@
 
 <header>
   <h1>EL PUNTO DE LA RED</h1>
-  <p>Reparación de computadoras, redes y soluciones tecnológicas en Cúcuta</p>
+  <p>Reparación de computadoras, redes y tecnología en Cúcuta</p>
+  <a class="btn" href="https://wa.me/57TU_NUMERO">Contáctanos</a>
 </header>
 
 <section>
@@ -110,78 +109,36 @@
 
   <div class="servicios">
 
-    <div class="card">
-      <h3>Reparación de Computadoras</h3>
-      <p>Diagnóstico y solución de fallas en PCs y laptops.</p>
-    </div>
-
-    <div class="card">
-      <h3>Reparación de Celulares</h3>
-      <p>Solución de problemas de software y hardware.</p>
-    </div>
-
-    <div class="card">
-      <h3>Optimización y Potenciación</h3>
-      <p>Aumenta la velocidad de tu equipo.</p>
-    </div>
-
-    <div class="card">
-      <h3>Configuración de Routers</h3>
-      <p>Mejora tu señal WiFi y seguridad.</p>
-    </div>
-
-    <div class="card">
-      <h3>Redes para Hogar y Negocio</h3>
-      <p>Instalación de redes cableadas y WiFi.</p>
-    </div>
-
-    <div class="card">
-      <h3>Radio Enlaces</h3>
-      <p>Conexión punto a punto de larga distancia.</p>
-    </div>
-
-    <div class="card">
-      <h3>Internet Satelital</h3>
-      <p>Instalación y asesoría en conectividad satelital.</p>
-    </div>
-
-    <div class="card">
-      <h3>Mantenimiento Preventivo</h3>
-      <p>Limpieza y actualización de sistemas.</p>
-    </div>
+    <div class="card"><h3>💻 Reparación de Computadoras</h3></div>
+    <div class="card"><h3>📱 Reparación de Celulares</h3></div>
+    <div class="card"><h3>⚡ Optimización de Equipos</h3></div>
+    <div class="card"><h3>📡 Configuración de Routers</h3></div>
+    <div class="card"><h3>🌐 Redes Hogar y Negocio</h3></div>
+    <div class="card"><h3>📶 Radio Enlaces</h3></div>
+    <div class="card"><h3>🛰 Internet Satelital</h3></div>
 
   </div>
 </section>
 
-<section class="sobre">
-  <h2>Sobre Nosotros</h2>
-  <p>
-    En <strong>El Punto de la Red</strong> ofrecemos soluciones tecnológicas en Cúcuta,
-    especializándonos en reparación de equipos, redes y optimización de sistemas.
-    Nuestro objetivo es brindar un servicio rápido, confiable y profesional.
+<section>
+  <h2>¿Por qué elegirnos?</h2>
+  <p style="text-align:center;">
+    Servicio rápido, confiable y con experiencia en soluciones tecnológicas.
+    Atención en Cúcuta y alrededores.
   </p>
-</section>
-
-<section>
-  <h2>Ubicación</h2>
-  <p>Atendemos en Cúcuta y alrededores.</p>
-</section>
-
-<section>
-  <h2>Contacto</h2>
-  <p>Escríbenos directamente por WhatsApp para atención rápida.</p>
-
-  <a class="boton" href="https://wa.me/573012491075" target="_blank">
-    Contactar por WhatsApp
-  </a>
 </section>
 
 <footer>
   <p>© 2026 El Punto de la Red - Cúcuta</p>
+  <p>
+    Correo: 
+    <a href="mailto:elpuntodelaredq2ta@gmail.com">
+      elpuntodelaredq2ta@gmail.com
+    </a>
+  </p>
 </footer>
 
-<!-- BOTON FLOTANTE -->
-<a class="whatsapp" href="https://wa.me/573012491075" target="_blank">💬</a>
+<a class="whatsapp" href="https://wa.me/57TU_NUMERO">💬</a>
 
 </body>
 </html>
